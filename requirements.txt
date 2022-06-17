@@ -1,0 +1,9 @@
+spacy
+nltk==3.7
+sklearn==0.0
+pandas==1.3.5
+datasets==2.1.0
+transformers==4.17.0
+sentence-transformers==2.2.0
+protobuf==3.20.0
+rouge-score==0.0.4
