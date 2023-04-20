@@ -3,7 +3,7 @@ Repo for my Master's thesis project in spring 2022, titled: Entity-Related Multi
 
 ## Setup
 
-The python version I used to run the code is 3.7.9. The reason for that specific version was because I had initially thought about using neuralcoref for coreference resolution, and that package required a specific python version. However, that package was later scrapped, and I have tested it with Python version 3.10.4 on another PC and it works fine!
+The python version I used to run the code is 3.7.9. The reason for using that specific version was that I initially used using neuralcoref for coreference resolution, which required specific python versions. However, that package was later scrapped, and I have tested it with Python version 3.10.4 (newest version at the time of writing) on another PC and it works fine!
 
 	1. Download python: https://www.python.org/downloads/release/python-379/
 		a. Make sure python is added to Path
@@ -26,6 +26,6 @@ The python version I used to run the code is 3.7.9. The reason for that specific
 
 
 ## The main files to run
-After you have completed the setup, the main files are found in ./src/extractive/main.py or ./src/abstractive/main.py, depending on which system you want to inspect. To generate a summary from the working dataset, assign a desired value to the _cluster_id_ parameter, and run the file.
+After you have completed the setup, the main files are found in ./src/extractive/main.py or ./src/abstractive/main.py, depending on which system you want to test. To generate a summary from the working dataset, assign a desired value to the _cluster_id_ parameter, and run the file.
 
 All results from the test on CNN/DM can be seen by running ./src/extractive/eval_stats.py or ./src/abstractive/eval_stats.py.
